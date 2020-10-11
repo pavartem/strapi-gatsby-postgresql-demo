@@ -16,7 +16,7 @@ module.exports = {
     {
       resolve: `gatsby-source-strapi`,
       options: {
-        apiURL: 'https://strapi-gatsby-archi-demo.herokuapp.com',
+        apiURL: `https://strapi-gatsby-archi-demo.herokuapp.com`,
         contentTypes: [
             `article`,
             `user`,
